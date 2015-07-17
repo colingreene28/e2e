@@ -1,0 +1,11 @@
+# dependecies
+node_modules
+
+# transoiled .js & .js.map files
+src/**/*.js
+src/**/*.js.map
+.tscache
+
+# typings
+typings
+reference.d.ts

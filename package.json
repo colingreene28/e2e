@@ -1,0 +1,19 @@
+{
+  "name": "e2e",
+  "version": "0.0.1",
+  "description": "Wipster end-to-end tests",
+  "main": "",
+  "license": "Wipster",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-ts": "^4.1.0",
+    "grunt-tsd": "^0.1.0",
+    "grunt-protractor-runner": "^2.0.0",
+
+    "matchdep": "^0.3.0",
+    "protractor": "^2.1.0"
+  },
+  "peerDependencies": {
+    "grunt-cli": "^0.1.13"
+  }
+}
