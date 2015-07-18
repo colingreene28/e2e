@@ -36,7 +36,10 @@ module.exports = function(grunt) {
                     configFile: 'conf.js',
                     keepAlive: false,
                     debug: true,
-                    color: false
+                    color: false,
+                    args: {
+                        verbose: true
+                    }
                 }
             }
         }
