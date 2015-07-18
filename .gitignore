@@ -1,5 +1,9 @@
+# IDE config files
+.idea
+
 # dependecies
 node_modules
+npm-debug.log
 
 # transoiled .js & .js.map files
 src/**/*.js
@@ -9,3 +13,4 @@ src/**/*.js.map
 # typings
 typings
 reference.d.ts
+

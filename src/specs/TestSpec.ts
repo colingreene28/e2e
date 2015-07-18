@@ -1,13 +1,14 @@
 ///ts:ref=reference.d.ts
 /// <reference path="../../reference.d.ts"/> ///ts:ref:generated
-describe('Calculator', () => {
+var ENUM = require('../pages/OperationType');
+var calculatorPage = require('../pages/Calculator');
 
-    var calculatorPage = new Pages.CalculatorPage();
+describe('Calculator', () => {
 
     beforeEach(calculatorPage.open);
 
     it('it should add 2 operands', () => {
-        calculatorPage.fill(Pages.OperationType.ADDITION, 1, 2);
+        calculatorPage.fill(ENUM.OperationType.ADDITION, 1, 2);
         calculatorPage.submit();
         calculatorPage.getFirstResult().then((result: string) => {
             expect(result).toEqual(3);

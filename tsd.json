@@ -6,13 +6,16 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "angular-protractor/angular-protractor.d.ts": {
-      "commit": "76e1dedf0bada455c0b75abeec3206d3aa5bd892"
+      "commit": "c0fdc8f774149840e99e45656be3013143f31309"
     },
     "selenium-webdriver/selenium-webdriver.d.ts": {
-      "commit": "76e1dedf0bada455c0b75abeec3206d3aa5bd892"
+      "commit": "c0fdc8f774149840e99e45656be3013143f31309"
     },
     "jasmine/jasmine.d.ts": {
-      "commit": "76e1dedf0bada455c0b75abeec3206d3aa5bd892"
+      "commit": "c0fdc8f774149840e99e45656be3013143f31309"
+    },
+    "node/node.d.ts": {
+      "commit": "c0fdc8f774149840e99e45656be3013143f31309"
     }
   }
 }

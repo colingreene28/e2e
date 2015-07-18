@@ -6,7 +6,11 @@ module.exports = function(grunt) {
         ts: {
             default: {
                 src: ['reference.d.ts', 'src/**/*.ts', 'typings/**/*.ts', '!node_modules/**/*.ts'],
-                reference: 'reference.d.ts'
+                compiler: "node_modules/typescript/bin/typescript.js",
+                reference: 'reference.d.ts',
+                options: {
+                    module: 'commonjs'
+                }
             }
         },
 
