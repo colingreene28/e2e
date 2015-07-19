@@ -12,7 +12,7 @@ You will also need to install the following:
 
 ###Protractor
 
-Install Protractor globally 
+Install Protractor<sup>2</sup> globally 
 
 ```
 npm install -g protractor
@@ -28,7 +28,7 @@ webdriver-manager update
 
 ###TSD
 
-TSD is a TypeScript definition manager, install it globally:
+TSD<sup>3</sup> is a TypeScript definition manager, install it globally:
 
 ```
  npm install -g tsd
@@ -38,30 +38,23 @@ Getting Started
 ---------------
 
 Getting started should be as simple as running these commands from the root of the project
+
+ ```
+ npm install
+ ```
  
  ```
  grunt
  ```
  
- and 
+ and to run the tests
  
  ```
  protractor conf.js
  ```
 
-Technologies
-------------
-###Grunt
-###Grunt-ts
-###Grunt-tsd
-###Grunt-protractor-runner
-###PageObjects
-
-
 <sup>1</sup> - [https://nodejs.org/](https://nodejs.org/)
 
-<sup></sup> - [https://angular.github.io/protractor/#/](https://angular.github.io/protractor/#/)
+<sup>2</sup> - [https://angular.github.io/protractor/#/](https://angular.github.io/protractor/#/)
 
-<sup></sup> - [http://definitelytyped.org/tsd/](http://definitelytyped.org/tsd/)
-
-<sup></sup> - [http://www.typescriptlang.org/](http://www.typescriptlang.org/)
+<sup>3</sup> - [http://definitelytyped.org/tsd/](http://definitelytyped.org/tsd/)
