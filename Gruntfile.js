@@ -29,6 +29,8 @@ module.exports = function(grunt) {
 
         /**
          * Protractor runner
+         *
+         * TODO: This isn't is working at the moment, need to run regular protractor cmd
          */
         protractor: {
             default: {
